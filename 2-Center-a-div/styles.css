@@ -1,0 +1,42 @@
+/* CSS for Center a Div */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    background: linear-gradient(to bottom, rgb(255, 203, 31), rgb(218, 186, 4))
+}
+
+.container img {
+    display: flex;
+    width: 92%;
+    height: 70%;
+    border-radius: 20px;
+    margin-top: 18px;
+}
+
+p {
+    height: 20%;
+    font-size: 1.3rem;
+    padding-left: 20px;
+}
